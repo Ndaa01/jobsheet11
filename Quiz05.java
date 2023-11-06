@@ -14,6 +14,13 @@ public class Quiz05 {
                 System.out.print("Tebak Angka (1-10): ");
                 int answer = input.nextInt();
                 input.nextLine();
+
+                if (answer < number) {
+                    System.out.println("Jawaban lebih kecil dari angka");
+                } else if (answer > number) {
+                    System.out.println("Jawaban lebih besar dari angka");
+                }
+
                 success = (answer == number);
             } while (!success);
             System.out.print("Apakah anda ingin mengulangi permainan (Y/y)?");
