@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NestedLoop_2341720132 {
+public class NestedLoop05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double[][] temps = new double[5][7];
